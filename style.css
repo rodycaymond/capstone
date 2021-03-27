@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0px 24px;
+    height: 64px;
+    font-family: Helvetica;
+}
+.parent-block {
+    display: inline-block;
+}
+.logo {
+    height: 48px;
+    position: relative;
+    top: 16px;
+}
+.colmar {
+    color: rgb(31, 29, 29);
+    text-transform: uppercase;
+}
+.academy {
+    color: rgb(211, 208, 208);
+    text-transform: uppercase;
+}
+.parent-block2 {
+    float: right;
+}
+.icons {
+    display: none;
+}
+.parent-block h1 {
+    display: inline-block;
+    position: relative;
+}
+.parent-block2 h2 {
+    display: inline-block;
+    margin: 0px 8px;
+    position: relative;
+    top: 16px;
+}
+.parent-block2 a {
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 24px 0px 8px;
+    position: relative;
+    top: 16px;
+}
+.jumbotron {
+    background-color: rgb(211, 208, 208);
+    padding-bottom: 24px;
+}
+.picnictable {
+    margin: 32px 24px;
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 32px;
+    display: inline-block;
+}
+.suppletext {
+    display: inline-block;
+    width: 30%;
+}
+.supplesub {
+    position: relative;
+    bottom: 250px;
+    font-family: Helvetica;
+    color: rgb(56, 56, 56);
+}
+.supplesub h1 {
+    font-size: 64px;
+    margin: 16px 0px;
+}
+.supplesub h2 {
+    font-size: 32px;
+    margin: 16px 0px;
+}
+button {
+    padding: 8px;
+    width: 90%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(56, 56, 56);
+    color: whitesmoke;
+}
+.practice-block {
+    display: inline-flex;
+    color: rgb(56, 56, 56);
+    font-weight: lighter;
+    padding-bottom: 32px;
+}
+.infoguy {
+    margin: 32px 24px;
+    width: 60%;
+    height: auto;
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+}
+.infoguy h1 {
+    margin: 32px 0px 24px 0px;
+    font-size: 3em;
+}
+.infoguy p {
+    margin-bottom: 32px;
+    font-size: 26px;
+    width: 80%;
+    line-height: 1.5;
+}
+.column {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin-top: 24px 0px 0px 0px;
+    justify-content: space-around;
+    border-left: 3px solid rgb(211, 208, 208);
+}
+.flexbox {
+    display: flex;
+    margin-left: 16px;
+    border-bottom: 3px solid rgb(211, 208, 208);
+    border-top: 3px solid rgb(211, 208, 208);
+    padding: 16px 0px;
+}
+.flexbox img {
+    width: 35%;
+    height: auto;
+}
+.internalflex {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: helvetica;
+}
+.startlearning {
+    background-color: rgb(211, 208, 208);
+    font-family: helvetica;
+    font-weight: lighter;
+    padding-bottom: 32px;
+}
+.startlearning h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 32px 0px;
+}
+.flexbox p, a {
+    font-size: 26px;
+    text-decoration: none;
+}.startflex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 72px;
+}
+.flexybois {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    margin: 32px 0px;
+}
+.flexybois h1 {
+    padding: 16px 16px 8px 16px;
+    color: rgb(56, 56, 56);
+}
+.flexybois h2 {
+    padding: 0px 0px 8px 0px;
+    margin: 0px 16px;
+    color: rgb(211, 208, 208);
+}
+.flexybois img {
+    height: auto;
+}
+.final {
+    font-family: helvetica;
+    padding-bottom: 32px;
+    border-bottom: 3px solid whitesmoke;
+}
+.final h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 32px 0px;
+}
+.subfinal {
+    display: inline-flex;
+}
+.videochunk {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 24px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+.videochunk p {
+    color: rgb(141, 140, 140)
+}
+.videochunk h1 {
+    color: rgb(56, 56, 56);
+}
+.videochunk video {
+    width: 100%;
+    height: auto;
+}
+.flexchunk {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+.flexchunkitem {
+    display: flex;
+}
+.flexchunkitem img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.chunkiteminterior {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.chunkiteminterior h3 {
+    color: rgb(56, 56, 56)
+}
+footer {
+    color: rgb(141, 140, 140);
+    text-decoration: none;
+    margin: 16px 24px;
+}
+footer p {
+    font-size: 2em;
+}
+footer a {
+    float: right;
+    margin: 0px 20px;
+    position: relative;
+    bottom: 30px;
+    color: rgb(211, 208, 208);
+}
+@media only screen and (max-width: 800px) {
+    .parent-block h1 {
+        display: none;
+    }
+    .parent-block2 {
+        display: none;
+    }
+    .picnictable {
+        margin: 0px 0px;
+        display: block;
+    }
+    .picnictable img{
+        width: 480px;
+        height: auto;
+    }
+    .suppletext {
+        display: block;
+        background-color: rgb(211, 208, 208);
+        width: 480px;
+        padding-bottom: 100px;
+    }
+    .supplesub {
+        width: 480px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+    .supplesub h1 {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .supplesub h2 {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    button {
+        font-size: 18px;
+        width: 400px;
+        position: relative;
+        top: 30px;
+    }
+    .icons {
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+    }
+    .icons img {
+        height: 48px;
+        width: auto;
+    }
+    .jumbotron {
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
+    }
+    .infoguy {
+        display: none;
+    }
+    .column {
+        width: 480px;
+    }
+    .flexbox {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .flexbox img {
+        margin: 16px;
+        width: 90%;
+    }
+    .internalflex {
+        text-align: center;
+    }
+    .startlearning {
+        width: 480px;
+        background-color: white;
+    }
+    .startflex {
+        flex-direction: column;
+    }
+    .flexybois {
+        width: 90%;
+        margin: 8px 16px;
+        background-color: rgb(211, 208, 208);
+    }
+    .flexybois img, h2 {
+        display: none;
+    }
+    .final {
+        width: 480px;
+        background-color: white;
+    }
+    .videochunk {
+        width: 480px;
+        margin: 0px;
+    }
+    .videochunk h1, p {
+        display: none;
+    }
+    .flexchunk {
+        display: none;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0px;
+        color: rgb(56, 56, 56);
+        width: 480px;
+    }
+    footer p {
+        width: auto;
+    }
+    footer a {
+        display: none;
+    }
+}
